@@ -1,0 +1,54 @@
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+}
+
+android {
+    namespace 'com.deeplab.translator'
+    compileSdk 33
+    buildToolsVersion '34.0.0'
+
+    defaultConfig {
+        applicationId 'com.deeplab.translator'
+        minSdk 24
+        targetSdk 33
+        versionCode 8
+        versionName '4.8'
+    }
+
+    signingConfigs {
+        release {
+            storeFile file('../release.keystore')
+            storePassword 'deepseek2026'
+            keyAlias 'deepseek'
+            keyPassword 'deepseek2026'
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            signingConfig signingConfigs.release
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            minifyEnabled false
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+    kotlinOptions {
+        jvmTarget = '11'
+    }
+}
+
+dependencies {
+    implementation 'androidx.core:core-ktx:1.10.1'
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.9.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'com.squareup.okhttp3:okhttp:4.11.0'
+}

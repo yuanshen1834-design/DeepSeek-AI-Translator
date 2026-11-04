@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DeepSeek 翻译</string>
+    <string name="placeholder_result">翻译结果将显示在这里</string>
+
+    <!-- 语言 -->
+    <string name="auto_detect">自动检测</string>
+    <string name="hanja_mixed">汉谚混写（국한문혼용）</string>
+
+    <!-- 主界面 -->
+    <string name="source_text">原文</string>
+    <string name="result_text">译文</string>
+    <string name="input_hint">输入要翻译的内容…</string>
+    <string name="translate">翻译</string>
+    <string name="translating">翻译中…</string>
+    <string name="cd_history">翻译记录</string>
+    <string name="cd_settings">设置</string>
+    <string name="cd_swap">交换语言</string>
+    <string name="cd_mic">语音输入</string>
+    <string name="cd_speak">朗读译文</string>
+    <string name="cd_copy">复制译文</string>
+
+    <!-- 历史页 -->
+    <string name="cd_back">返回</string>
+    <string name="cd_delete">删除记录</string>
+    <string name="history_title">翻译记录</string>
+    <string name="clear">清空</string>
+    <string name="no_history">暂无翻译记录</string>
+    <string name="no_records">暂无记录</string>
+
+    <!-- 通用提示 -->
+    <string name="copied">已复制到剪贴板</string>
+    <string name="no_result">还没有翻译结果</string>
+    <string name="complete_translation_first">请先完成一次翻译</string>
+    <string name="close">关闭</string>
+    <string name="cancel">取消</string>
+    <string name="delete">删除</string>
+    <string name="save">保存</string>
+
+    <!-- 语音输入 -->
+    <string name="synthesizing">正在合成语音…</string>
+    <string name="listening_speak">请开始说话…</string>
+    <string name="recognition_done">识别完成，可直接点「翻译」</string>
+    <string name="mic_permission_needed">需要麦克风权限才能语音输入</string>
+    <string name="no_asr_service">本机没有可用的语音识别服务。可以用输入法键盘上的语音输入键说话，识别后自动填入再点翻译</string>
+    <string name="voice_input_prefix">语音输入：</string>
+    <string name="keyboard_hint">\n也可以用输入法键盘的语音输入键</string>
+    <string name="asr_audio">录音出现问题，请重试</string>
+    <string name="asr_permission">缺少麦克风权限</string>
+    <string name="asr_network">网络异常，在线识别失败</string>
+    <string name="asr_no_match">没有听清，请靠近麦克风再说一次</string>
+    <string name="asr_busy">语音识别服务正忙，稍后再试</string>
+    <string name="asr_server">识别服务出错，请重试</string>
+    <string name="asr_unavailable">本机语音识别服务不可用</string>
+    <string name="asr_no_voice">没有识别到语音，请再试一次</string>
+    <string name="asr_cannot_start">无法启动语音识别</string>
+    <string name="asr_no_service">本机没有可用的语音识别服务</string>
+
+    <!-- 翻译校验 -->
+    <string name="set_api_key_first">请先设置 API Key</string>
+    <string name="enter_text">请输入要翻译的内容</string>
+    <string name="target_no_auto">目标语言不能选择「%s」</string>
+    <string name="same_language">源语言和目标语言相同</string>
+
+    <!-- 朗读 -->
+    <string name="speak_prefix">朗读：</string>
+    <string name="tts_no_content">没有可朗读的内容</string>
+    <string name="tts_lang_unsupported">该语言暂不支持在线朗读</string>
+    <string name="tts_synthesis_failed">在线语音合成失败，请检查网络后重试</string>
+    <string name="tts_play_failed">在线语音播放失败</string>
+
+    <!-- 设置 -->
+    <string name="settings">设置</string>
+    <string name="api_key_settings">API Key 设置</string>
+    <string name="about_voice">关于语音功能</string>
+    <string name="voice_info_title">语音功能说明</string>
+    <string name="voice_info_msg">🎤 语音输入：使用系统识别服务（小米→小爱，vivo→蓝心/讯飞）。\n\n🔊 语音朗读：使用微软 Edge 在线引擎（免费、音色自然、支持全部语言），需网络连接。</string>
+    <string name="got_it">知道了</string>
+    <string name="api_key_dialog_title">设置 DeepSeek API Key</string>
+    <string name="api_key_dialog_msg">在 platform.deepseek.com 注册后，进入「API Keys」创建密钥（sk- 开头）。\n密钥仅保存在本机。</string>
+    <string name="api_key_clear">清除</string>
+    <string name="api_key_saved">已保存</string>
+    <string name="api_key_cleared">已清空 API Key</string>
+
+    <!-- 历史操作 -->
+    <string name="clear_all_title">清空全部记录</string>
+    <string name="clear_all_msg">确定要删除全部 %d 条翻译记录吗？此操作不可恢复。</string>
+    <string name="cleared_all">已清空全部记录</string>
+    <string name="record_deleted">已删除该记录</string>
+    <string name="detail_source">【原文】</string>
+    <string name="detail_target">【译文】</string>
+    <string name="read_aloud">朗读译文</string>
+    <string name="copy_text">复制译文</string>
+
+    <!-- API 错误 -->
+    <string name="err_empty_api">API 返回内容为空</string>
+    <string name="err_request_failed">请求失败：%s</string>
+    <string name="err_unknown">未知错误</string>
+    <string name="err_401">API Key 无效或已过期</string>
+    <string name="err_402">账户余额不足，请充值</string>
+    <string name="err_403">无权限访问</string>
+    <string name="err_404">接口不存在</string>
+    <string name="err_429">请求过于频繁，请稍后重试</string>
+    <string name="err_5xx">DeepSeek 服务器错误（%d）</string>
+    <string name="err_http">请求出错（HTTP %d）</string>
+</resources>

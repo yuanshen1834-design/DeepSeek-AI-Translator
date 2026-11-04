@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DeepSeek 翻訳</string>
+    <string name="placeholder_result">翻訳結果がここに表示されます</string>
+
+    <string name="auto_detect">自動検出</string>
+    <string name="hanja_mixed">漢諺混交（국한문혼용）</string>
+
+    <string name="source_text">原文</string>
+    <string name="result_text">訳文</string>
+    <string name="input_hint">翻訳するテキストを入力…</string>
+    <string name="translate">翻訳</string>
+    <string name="translating">翻訳中…</string>
+    <string name="cd_history">翻訳履歴</string>
+    <string name="cd_settings">設定</string>
+    <string name="cd_swap">言語を入れ替え</string>
+    <string name="cd_mic">音声入力</string>
+    <string name="cd_speak">訳文を読み上げ</string>
+    <string name="cd_copy">訳文をコピー</string>
+
+    <string name="cd_back">戻る</string>
+    <string name="cd_delete">履歴を削除</string>
+    <string name="history_title">翻訳履歴</string>
+    <string name="clear">クリア</string>
+    <string name="no_history">翻訳履歴はありません</string>
+    <string name="no_records">履歴はありません</string>
+
+    <string name="copied">クリップボードにコピーしました</string>
+    <string name="no_result">翻訳結果はまだありません</string>
+    <string name="complete_translation_first">先に翻訳を完了してください</string>
+    <string name="close">閉じる</string>
+    <string name="cancel">キャンセル</string>
+    <string name="delete">削除</string>
+    <string name="save">保存</string>
+
+    <string name="synthesizing">音声を合成中…</string>
+    <string name="listening_speak">話してください…</string>
+    <string name="recognition_done">認識完了。「翻訳」をタップできます</string>
+    <string name="mic_permission_needed">音声入力にはマイクの権限が必要です</string>
+    <string name="no_asr_service">この端末には音声認識サービスがありません。キーボードの音声入力キーを使ってから翻訳をタップしてください</string>
+    <string name="voice_input_prefix">音声入力：</string>
+    <string name="keyboard_hint">\nキーボードの音声入力キーもご利用いただけます</string>
+    <string name="asr_audio">録音に問題が発生しました。再試行してください</string>
+    <string name="asr_permission">マイクの権限がありません</string>
+    <string name="asr_network">ネットワークエラー、オンライン認識に失敗しました</string>
+    <string name="asr_no_match">聞き取れませんでした。マイクに近づいてもう一度</string>
+    <string name="asr_busy">認識サービスがビジーです。しばらくしてから再試行してください</string>
+    <string name="asr_server">認識サービスエラー。再試行してください</string>
+    <string name="asr_unavailable">この端末では音声認識を利用できません</string>
+    <string name="asr_no_voice">音声が検出されませんでした。もう一度お試しください</string>
+    <string name="asr_cannot_start">音声認識を開始できません</string>
+    <string name="asr_no_service">この端末には音声認識サービスがありません</string>
+
+    <string name="set_api_key_first">先に API Key を設定してください</string>
+    <string name="enter_text">翻訳するテキストを入力してください</string>
+    <string name="target_no_auto">翻訳先言語に「%s」は選択できません</string>
+    <string name="same_language">原文と訳文の言語が同じです</string>
+
+    <string name="speak_prefix">読み上げ：</string>
+    <string name="tts_no_content">読み上げる内容がありません</string>
+    <string name="tts_lang_unsupported">この言語はオンライン読み上げに対応していません</string>
+    <string name="tts_synthesis_failed">オンライン音声合成に失敗しました。ネットワークを確認して再試行してください</string>
+    <string name="tts_play_failed">オンライン音声の再生に失敗しました</string>
+
+    <string name="settings">設定</string>
+    <string name="api_key_settings">API Key 設定</string>
+    <string name="about_voice">音声機能について</string>
+    <string name="voice_info_title">音声機能の説明</string>
+    <string name="voice_info_msg">🎤 音声入力：システムの認識サービスを使用します（Xiaomi→Xiaoai、vivo→Blue Heart/訊飛）。\n\n🔊 読み上げ：Microsoft Edge オンラインエンジンを使用します（無料、自然な音声、全言語対応）、ネットワーク接続が必要です。</string>
+    <string name="got_it">了解</string>
+    <string name="api_key_dialog_title">DeepSeek API Key を設定</string>
+    <string name="api_key_dialog_msg">platform.deepseek.com に登録し、「API Keys」でキー（sk- で始まる）を作成してください。\nキーは端末内にのみ保存されます。</string>
+    <string name="api_key_clear">クリア</string>
+    <string name="api_key_saved">保存しました</string>
+    <string name="api_key_cleared">API Key をクリアしました</string>
+
+    <string name="clear_all_title">すべての履歴をクリア</string>
+    <string name="clear_all_msg">%d 件の翻訳履歴をすべて削除しますか？この操作は取り消せません。</string>
+    <string name="cleared_all">すべての履歴を削除しました</string>
+    <string name="record_deleted">この履歴を削除しました</string>
+    <string name="detail_source">【原文】</string>
+    <string name="detail_target">【訳文】</string>
+    <string name="read_aloud">訳文を読み上げ</string>
+    <string name="copy_text">訳文をコピー</string>
+
+    <string name="err_empty_api">API が空の内容を返しました</string>
+    <string name="err_request_failed">リクエスト失敗：%s</string>
+    <string name="err_unknown">不明なエラー</string>
+    <string name="err_401">API Key が無効または期限切れです</string>
+    <string name="err_402">残高不足です。チャージしてください</string>
+    <string name="err_403">アクセス権限がありません</string>
+    <string name="err_404">エンドポイントが存在しません</string>
+    <string name="err_429">リクエストが多すぎます。しばらくしてから再試行してください</string>
+    <string name="err_5xx">DeepSeek サーバーエラー（%d）</string>
+    <string name="err_http">リクエストエラー（HTTP %d）</string>
+</resources>

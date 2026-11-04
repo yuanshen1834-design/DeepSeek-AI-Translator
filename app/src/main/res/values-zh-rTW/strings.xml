@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DeepSeek 翻譯</string>
+    <string name="placeholder_result">翻譯結果將顯示在這裡</string>
+
+    <string name="auto_detect">自動偵測</string>
+    <string name="hanja_mixed">漢諺混寫（국한문혼용）</string>
+
+    <string name="source_text">原文</string>
+    <string name="result_text">譯文</string>
+    <string name="input_hint">輸入要翻譯的內容…</string>
+    <string name="translate">翻譯</string>
+    <string name="translating">翻譯中…</string>
+    <string name="cd_history">翻譯記錄</string>
+    <string name="cd_settings">設定</string>
+    <string name="cd_swap">交換語言</string>
+    <string name="cd_mic">語音輸入</string>
+    <string name="cd_speak">朗讀譯文</string>
+    <string name="cd_copy">複製譯文</string>
+
+    <string name="cd_back">返回</string>
+    <string name="cd_delete">刪除記錄</string>
+    <string name="history_title">翻譯記錄</string>
+    <string name="clear">清空</string>
+    <string name="no_history">暫無翻譯記錄</string>
+    <string name="no_records">暫無記錄</string>
+
+    <string name="copied">已複製到剪貼簿</string>
+    <string name="no_result">還沒有翻譯結果</string>
+    <string name="complete_translation_first">請先完成一次翻譯</string>
+    <string name="close">關閉</string>
+    <string name="cancel">取消</string>
+    <string name="delete">刪除</string>
+    <string name="save">儲存</string>
+
+    <string name="synthesizing">正在合成語音…</string>
+    <string name="listening_speak">請開始說話…</string>
+    <string name="recognition_done">識別完成，可直接點「翻譯」</string>
+    <string name="mic_permission_needed">需要麥克風權限才能語音輸入</string>
+    <string name="no_asr_service">本機沒有可用的語音辨識服務。可以用輸入法鍵盤上的語音輸入鍵說話，辨識後自動填入再點翻譯</string>
+    <string name="voice_input_prefix">語音輸入：</string>
+    <string name="keyboard_hint">\n也可以用輸入法鍵盤的語音輸入鍵</string>
+    <string name="asr_audio">錄音出現問題，請重試</string>
+    <string name="asr_permission">缺少麥克風權限</string>
+    <string name="asr_network">網路異常，線上辨識失敗</string>
+    <string name="asr_no_match">沒有聽清，請靠近麥克風再說一次</string>
+    <string name="asr_busy">語音辨識服務忙線中，稍後再試</string>
+    <string name="asr_server">辨識服務出錯，請重試</string>
+    <string name="asr_unavailable">本機語音辨識服務不可用</string>
+    <string name="asr_no_voice">沒有辨識到語音，請再試一次</string>
+    <string name="asr_cannot_start">無法啟動語音辨識</string>
+    <string name="asr_no_service">本機沒有可用的語音辨識服務</string>
+
+    <string name="set_api_key_first">請先設定 API Key</string>
+    <string name="enter_text">請輸入要翻譯的內容</string>
+    <string name="target_no_auto">目標語言不能選擇「%s」</string>
+    <string name="same_language">來源語言和目標語言相同</string>
+
+    <string name="speak_prefix">朗讀：</string>
+    <string name="tts_no_content">沒有可朗讀的內容</string>
+    <string name="tts_lang_unsupported">該語言暫不支援線上朗讀</string>
+    <string name="tts_synthesis_failed">線上語音合成失敗，請檢查網路後重試</string>
+    <string name="tts_play_failed">線上語音播放失敗</string>
+
+    <string name="settings">設定</string>
+    <string name="api_key_settings">API Key 設定</string>
+    <string name="about_voice">關於語音功能</string>
+    <string name="voice_info_title">語音功能說明</string>
+    <string name="voice_info_msg">🎤 語音輸入：使用系統辨識服務（小米→小愛，vivo→藍心/訊飛）。\n\n🔊 語音朗讀：使用微軟 Edge 線上引擎（免費、音色自然、支援全部語言），需網路連線。</string>
+    <string name="got_it">知道了</string>
+    <string name="api_key_dialog_title">設定 DeepSeek API Key</string>
+    <string name="api_key_dialog_msg">在 platform.deepseek.com 註冊後，進入「API Keys」建立金鑰（sk- 開頭）。\n金鑰僅儲存在本機。</string>
+    <string name="api_key_clear">清除</string>
+    <string name="api_key_saved">已儲存</string>
+    <string name="api_key_cleared">已清空 API Key</string>
+
+    <string name="clear_all_title">清空全部記錄</string>
+    <string name="clear_all_msg">確定要刪除全部 %d 條翻譯記錄嗎？此操作無法復原。</string>
+    <string name="cleared_all">已清空全部記錄</string>
+    <string name="record_deleted">已刪除該記錄</string>
+    <string name="detail_source">【原文】</string>
+    <string name="detail_target">【譯文】</string>
+    <string name="read_aloud">朗讀譯文</string>
+    <string name="copy_text">複製譯文</string>
+
+    <string name="err_empty_api">API 回傳內容為空</string>
+    <string name="err_request_failed">請求失敗：%s</string>
+    <string name="err_unknown">未知錯誤</string>
+    <string name="err_401">API Key 無效或已過期</string>
+    <string name="err_402">帳戶餘額不足，請儲值</string>
+    <string name="err_403">無權限存取</string>
+    <string name="err_404">介面不存在</string>
+    <string name="err_429">請求過於頻繁，請稍後重試</string>
+    <string name="err_5xx">DeepSeek 伺服器錯誤（%d）</string>
+    <string name="err_http">請求出錯（HTTP %d）</string>
+</resources>

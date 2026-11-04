@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DeepSeek Traductor</string>
+    <string name="placeholder_result">La traducción aparecerá aquí</string>
+
+    <string name="auto_detect">Detección automática</string>
+    <string name="hanja_mixed">Escritura mixta hanja-hangul (국한문혼용)</string>
+
+    <string name="source_text">Texto original</string>
+    <string name="result_text">Traducción</string>
+    <string name="input_hint">Introduce el texto a traducir…</string>
+    <string name="translate">Traducir</string>
+    <string name="translating">Traduciendo…</string>
+    <string name="cd_history">Historial</string>
+    <string name="cd_settings">Ajustes</string>
+    <string name="cd_swap">Intercambiar idiomas</string>
+    <string name="cd_mic">Entrada de voz</string>
+    <string name="cd_speak">Leer traducción</string>
+    <string name="cd_copy">Copiar traducción</string>
+
+    <string name="cd_back">Atrás</string>
+    <string name="cd_delete">Eliminar registro</string>
+    <string name="history_title">Historial</string>
+    <string name="clear">Borrar</string>
+    <string name="no_history">Aún no hay historial de traducciones</string>
+    <string name="no_records">No hay registros</string>
+
+    <string name="copied">Copiado al portapapeles</string>
+    <string name="no_result">Todavía no hay traducción</string>
+    <string name="complete_translation_first">Completa primero una traducción</string>
+    <string name="close">Cerrar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="delete">Eliminar</string>
+    <string name="save">Guardar</string>
+
+    <string name="synthesizing">Sintetizando voz…</string>
+    <string name="listening_speak">Empieza a hablar…</string>
+    <string name="recognition_done">Reconocido. Pulsa «Traducir»</string>
+    <string name="mic_permission_needed">Se necesita permiso de micrófono para la entrada de voz</string>
+    <string name="no_asr_service">No hay servicio de reconocimiento de voz en este dispositivo. Usa la tecla de voz del teclado y luego pulsa Traducir</string>
+    <string name="voice_input_prefix">Entrada de voz: </string>
+    <string name="keyboard_hint">\nTambién puedes usar la tecla de voz del teclado</string>
+    <string name="asr_audio">Problema de grabación, reintenta</string>
+    <string name="asr_permission">Falta el permiso del micrófono</string>
+    <string name="asr_network">Error de red, falló el reconocimiento en línea</string>
+    <string name="asr_no_match">No se entendió. Acércate al micrófono e inténtalo de nuevo</string>
+    <string name="asr_busy">Servicio de reconocimiento ocupado, prueba más tarde</string>
+    <string name="asr_server">Error del servicio de reconocimiento, reintenta</string>
+    <string name="asr_unavailable">El reconocimiento de voz no está disponible en este dispositivo</string>
+    <string name="asr_no_voice">No se detectó voz, inténtalo de nuevo</string>
+    <string name="asr_cannot_start">No se pudo iniciar el reconocimiento de voz</string>
+    <string name="asr_no_service">No hay servicio de reconocimiento de voz en este dispositivo</string>
+
+    <string name="set_api_key_first">Configura primero tu API Key</string>
+    <string name="enter_text">Introduce el texto a traducir</string>
+    <string name="target_no_auto">El idioma destino no puede ser «%s»</string>
+    <string name="same_language">El idioma de origen y el destino son iguales</string>
+
+    <string name="speak_prefix">Lectura: </string>
+    <string name="tts_no_content">No hay nada que leer</string>
+    <string name="tts_lang_unsupported">La lectura en línea no está disponible para este idioma</string>
+    <string name="tts_synthesis_failed">Fallo en la síntesis de voz. Comprueba la red y reintenta</string>
+    <string name="tts_play_failed">Fallo al reproducir el audio en línea</string>
+
+    <string name="settings">Ajustes</string>
+    <string name="api_key_settings">API Key</string>
+    <string name="about_voice">Sobre las funciones de voz</string>
+    <string name="voice_info_title">Funciones de voz</string>
+    <string name="voice_info_msg">🎤 Entrada de voz: usa el servicio de reconocimiento del sistema (Xiaomi→Xiaoai, vivo→Blue Heart/iFlytek).\n\n🔊 Lectura: usa el motor en línea Microsoft Edge (gratis, voces naturales, todos los idiomas), requiere red.</string>
+    <string name="got_it">Entendido</string>
+    <string name="api_key_dialog_title">Configurar DeepSeek API Key</string>
+    <string name="api_key_dialog_msg">Regístrate en platform.deepseek.com y crea una clave (empieza por sk-) en «API Keys».\nLa clave se guarda solo en este dispositivo.</string>
+    <string name="api_key_clear">Borrar</string>
+    <string name="api_key_saved">Guardado</string>
+    <string name="api_key_cleared">API Key borrada</string>
+
+    <string name="clear_all_title">Borrar todo el historial</string>
+    <string name="clear_all_msg">¿Eliminar los %d registros de traducción? Esta acción no se puede deshacer.</string>
+    <string name="cleared_all">Historial borrado</string>
+    <string name="record_deleted">Registro eliminado</string>
+    <string name="detail_source">[Original]</string>
+    <string name="detail_target">[Traducción]</string>
+    <string name="read_aloud">Leer traducción</string>
+    <string name="copy_text">Copiar traducción</string>
+
+    <string name="err_empty_api">La API devolvió contenido vacío</string>
+    <string name="err_request_failed">Error de solicitud: %s</string>
+    <string name="err_unknown">Error desconocido</string>
+    <string name="err_401">API Key no válida o caducada</string>
+    <string name="err_402">Saldo insuficiente, recarga la cuenta</string>
+    <string name="err_403">Acceso denegado</string>
+    <string name="err_404">Punto de acceso no encontrado</string>
+    <string name="err_429">Demasiadas solicitudes, inténtalo más tarde</string>
+    <string name="err_5xx">Error del servidor DeepSeek (%d)</string>
+    <string name="err_http">Error de solicitud (HTTP %d)</string>
+</resources>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ترجمة DeepSeek</string>
+    <string name="placeholder_result">ستظهر الترجمة هنا</string>
+
+    <string name="auto_detect">كشف تلقائي</string>
+    <string name="hanja_mixed">كتابة مختلطة بالهانجا (국한문혼용)</string>
+
+    <string name="source_text">النص الأصلي</string>
+    <string name="result_text">الترجمة</string>
+    <string name="input_hint">أدخل النص المراد ترجمته…</string>
+    <string name="translate">ترجم</string>
+    <string name="translating">جارٍ الترجمة…</string>
+    <string name="cd_history">سجل الترجمة</string>
+    <string name="cd_settings">الإعدادات</string>
+    <string name="cd_swap">تبديل اللغتين</string>
+    <string name="cd_mic">إدخال صوتي</string>
+    <string name="cd_speak">قراءة الترجمة بصوت عالٍ</string>
+    <string name="cd_copy">نسخ الترجمة</string>
+
+    <string name="cd_back">رجوع</string>
+    <string name="cd_delete">حذف السجل</string>
+    <string name="history_title">سجل الترجمة</string>
+    <string name="clear">مسح</string>
+    <string name="no_history">لا يوجد سجل ترجمة بعد</string>
+    <string name="no_records">لا توجد سجلات</string>
+
+    <string name="copied">تم النسخ إلى الحافظة</string>
+    <string name="no_result">لا توجد ترجمة بعد</string>
+    <string name="complete_translation_first">أكمل ترجمة أولاً</string>
+    <string name="close">إغلاق</string>
+    <string name="cancel">إلغاء</string>
+    <string name="delete">حذف</string>
+    <string name="save">حفظ</string>
+
+    <string name="synthesizing">جارٍ تركيب الصوت…</string>
+    <string name="listening_speak">ابدأ التحدث…</string>
+    <string name="recognition_done">تم التعرف. اضغط «ترجم» للمتابعة</string>
+    <string name="mic_permission_needed">إذن الميكروفون مطلوب للإدخال الصوتي</string>
+    <string name="no_asr_service">لا توجد خدمة تعرف على الكلام على هذا الجهاز. يمكنك استخدام زر الإدخال الصوتي في لوحة المفاتيح ثم الضغط على ترجم</string>
+    <string name="voice_input_prefix">الإدخال الصوتي: </string>
+    <string name="keyboard_hint">\nيمكنك أيضاً استخدام زر الصوت في لوحة المفاتيح</string>
+    <string name="asr_audio">حدثت مشكلة في التسجيل، حاول مجدداً</string>
+    <string name="asr_permission">إذن الميكروفون مفقود</string>
+    <string name="asr_network">خطأ في الشبكة، فشل التعرف عبر الإنترنت</string>
+    <string name="asr_no_match">لم يتم التعرف. اقترب من الميكروفون وحاول مجدداً</string>
+    <string name="asr_busy">خدمة التعرف مشغولة، حاول لاحقاً</string>
+    <string name="asr_server">خطأ في خدمة التعرف، حاول مجدداً</string>
+    <string name="asr_unavailable">التعرف على الكلام غير متاح على هذا الجهاز</string>
+    <string name="asr_no_voice">لم يتم اكتشاف صوت، حاول مجدداً</string>
+    <string name="asr_cannot_start">تعذر بدء التعرف على الكلام</string>
+    <string name="asr_no_service">لا توجد خدمة تعرف على الكلام على هذا الجهاز</string>
+
+    <string name="set_api_key_first">يرجى تعيين مفتاح API أولاً</string>
+    <string name="enter_text">يرجى إدخال النص المراد ترجمته</string>
+    <string name="target_no_auto">لا يمكن اختيار «%s» كلغة هدف</string>
+    <string name="same_language">لغة المصدر والهدف متطابقتان</string>
+
+    <string name="speak_prefix">القراءة: </string>
+    <string name="tts_no_content">لا يوجد محتوى للقراءة</string>
+    <string name="tts_lang_unsupported">القراءة عبر الإنترنت غير متاحة لهذه اللغة</string>
+    <string name="tts_synthesis_failed">فشل تركيب الصوت عبر الإنترنت. تحقق من الشبكة وأعد المحاولة</string>
+    <string name="tts_play_failed">فشل تشغيل الصوت عبر الإنترنت</string>
+
+    <string name="settings">الإعدادات</string>
+    <string name="api_key_settings">إعدادات مفتاح API</string>
+    <string name="about_voice">حول الميزات الصوتية</string>
+    <string name="voice_info_title">الميزات الصوتية</string>
+    <string name="voice_info_msg">🎤 الإدخال الصوتي: يستخدم خدمة التعرف في النظام (Xiaomi→Xiaoai، vivo→Blue Heart/iFlytek).\n\n🔊 القراءة بصوت عالٍ: يستخدم محرك Microsoft Edge عبر الإنترنت (مجاني، أصوات طبيعية، جميع اللغات)، يتطلب اتصالاً بالإنترنت.</string>
+    <string name="got_it">حسناً</string>
+    <string name="api_key_dialog_title">تعيين مفتاح DeepSeek API</string>
+    <string name="api_key_dialog_msg">سجّل في platform.deepseek.com ثم أنشئ مفتاحاً (يبدأ بـ sk-) من «API Keys».\nيُخزَّن المفتاح على هذا الجهاز فقط.</string>
+    <string name="api_key_clear">مسح</string>
+    <string name="api_key_saved">تم الحفظ</string>
+    <string name="api_key_cleared">تم مسح مفتاح API</string>
+
+    <string name="clear_all_title">مسح جميع السجلات</string>
+    <string name="clear_all_msg">حذف جميع سجلات الترجمة البالغ عددها %d؟ لا يمكن التراجع عن هذا الإجراء.</string>
+    <string name="cleared_all">تم مسح جميع السجلات</string>
+    <string name="record_deleted">تم حذف السجل</string>
+    <string name="detail_source">[النص الأصلي]</string>
+    <string name="detail_target">[الترجمة]</string>
+    <string name="read_aloud">قراءة الترجمة</string>
+    <string name="copy_text">نسخ الترجمة</string>
+
+    <string name="err_empty_api">أعادت واجهة API محتوى فارغاً</string>
+    <string name="err_request_failed">فشل الطلب: %s</string>
+    <string name="err_unknown">خطأ غير معروف</string>
+    <string name="err_401">مفتاح API غير صالح أو منتهي الصلاحية</string>
+    <string name="err_402">الرصيد غير كافٍ، يرجى الشحن</string>
+    <string name="err_403">لا يوجد إذن وصول</string>
+    <string name="err_404">الواجهة غير موجودة</string>
+    <string name="err_429">طلبات كثيرة جداً، حاول لاحقاً</string>
+    <string name="err_5xx">خطأ في خادم DeepSeek (%d)</string>
+    <string name="err_http">خطأ في الطلب (HTTP %d)</string>
+</resources>

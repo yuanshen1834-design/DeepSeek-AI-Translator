@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DeepSeek Translate</string>
+    <string name="placeholder_result">Translation will appear here</string>
+
+    <string name="auto_detect">Auto-detect</string>
+    <string name="hanja_mixed">Hanja-Hangul mixed script (국한문혼용)</string>
+
+    <string name="source_text">Source</string>
+    <string name="result_text">Translation</string>
+    <string name="input_hint">Enter text to translate…</string>
+    <string name="translate">Translate</string>
+    <string name="translating">Translating…</string>
+    <string name="cd_history">History</string>
+    <string name="cd_settings">Settings</string>
+    <string name="cd_swap">Swap languages</string>
+    <string name="cd_mic">Voice input</string>
+    <string name="cd_speak">Read aloud</string>
+    <string name="cd_copy">Copy translation</string>
+
+    <string name="cd_back">Back</string>
+    <string name="cd_delete">Delete record</string>
+    <string name="history_title">History</string>
+    <string name="clear">Clear</string>
+    <string name="no_history">No translation history yet</string>
+    <string name="no_records">No records</string>
+
+    <string name="copied">Copied to clipboard</string>
+    <string name="no_result">No translation yet</string>
+    <string name="complete_translation_first">Complete a translation first</string>
+    <string name="close">Close</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="save">Save</string>
+
+    <string name="synthesizing">Synthesizing speech…</string>
+    <string name="listening_speak">Please start speaking…</string>
+    <string name="recognition_done">Recognized. Tap “Translate” to continue</string>
+    <string name="mic_permission_needed">Microphone permission is required for voice input</string>
+    <string name="no_asr_service">No speech recognition service on this device. You can use the voice input key on your keyboard, then tap Translate</string>
+    <string name="voice_input_prefix">Voice input: </string>
+    <string name="keyboard_hint">\nYou can also use the voice key on your keyboard</string>
+    <string name="asr_audio">Audio recording problem, please retry</string>
+    <string name="asr_permission">Missing microphone permission</string>
+    <string name="asr_network">Network error, online recognition failed</string>
+    <string name="asr_no_match">Didn\'t catch that. Move closer to the mic and try again</string>
+    <string name="asr_busy">Recognition service is busy, try again later</string>
+    <string name="asr_server">Recognition service error, please retry</string>
+    <string name="asr_unavailable">Speech recognition is unavailable on this device</string>
+    <string name="asr_no_voice">No speech detected, please try again</string>
+    <string name="asr_cannot_start">Unable to start speech recognition</string>
+    <string name="asr_no_service">No speech recognition service on this device</string>
+
+    <string name="set_api_key_first">Please set your API Key first</string>
+    <string name="enter_text">Please enter text to translate</string>
+    <string name="target_no_auto">Target language cannot be “%s”</string>
+    <string name="same_language">Source and target languages are the same</string>
+
+    <string name="speak_prefix">Read aloud: </string>
+    <string name="tts_no_content">Nothing to read aloud</string>
+    <string name="tts_lang_unsupported">Online reading is not available for this language</string>
+    <string name="tts_synthesis_failed">Online speech synthesis failed. Check your network and retry</string>
+    <string name="tts_play_failed">Online audio playback failed</string>
+
+    <string name="settings">Settings</string>
+    <string name="api_key_settings">API Key settings</string>
+    <string name="about_voice">About voice features</string>
+    <string name="voice_info_title">Voice features</string>
+    <string name="voice_info_msg">🎤 Voice input: uses the system recognition service (Xiaomi→Xiaoai, vivo→Blue Heart/iFlytek).\n\n🔊 Read aloud: uses the Microsoft Edge online engine (free, natural voices, all languages), requires network.</string>
+    <string name="got_it">Got it</string>
+    <string name="api_key_dialog_title">Set DeepSeek API Key</string>
+    <string name="api_key_dialog_msg">Register at platform.deepseek.com, then create a key (starts with sk-) under “API Keys”.\nThe key is stored on this device only.</string>
+    <string name="api_key_clear">Clear</string>
+    <string name="api_key_saved">Saved</string>
+    <string name="api_key_cleared">API Key cleared</string>
+
+    <string name="clear_all_title">Clear all records</string>
+    <string name="clear_all_msg">Delete all %d translation records? This cannot be undone.</string>
+    <string name="cleared_all">All records cleared</string>
+    <string name="record_deleted">Record deleted</string>
+    <string name="detail_source">[Source]</string>
+    <string name="detail_target">[Translation]</string>
+    <string name="read_aloud">Read aloud</string>
+    <string name="copy_text">Copy translation</string>
+
+    <string name="err_empty_api">API returned empty content</string>
+    <string name="err_request_failed">Request failed: %s</string>
+    <string name="err_unknown">Unknown error</string>
+    <string name="err_401">Invalid or expired API Key</string>
+    <string name="err_402">Insufficient balance, please top up</string>
+    <string name="err_403">Access denied</string>
+    <string name="err_404">Endpoint not found</string>
+    <string name="err_429">Too many requests, please retry later</string>
+    <string name="err_5xx">DeepSeek server error (%d)</string>
+    <string name="err_http">Request error (HTTP %d)</string>
+</resources>

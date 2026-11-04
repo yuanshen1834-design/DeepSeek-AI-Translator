@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DeepSeek Перевод</string>
+    <string name="placeholder_result">Здесь появится перевод</string>
+
+    <string name="auto_detect">Автоопределение</string>
+    <string name="hanja_mixed">Смешанная запись ханча-хангыль (국한문혼용)</string>
+
+    <string name="source_text">Исходный текст</string>
+    <string name="result_text">Перевод</string>
+    <string name="input_hint">Введите текст для перевода…</string>
+    <string name="translate">Перевести</string>
+    <string name="translating">Перевод…</string>
+    <string name="cd_history">История</string>
+    <string name="cd_settings">Настройки</string>
+    <string name="cd_swap">Поменять языки</string>
+    <string name="cd_mic">Голосовой ввод</string>
+    <string name="cd_speak">Озвучить перевод</string>
+    <string name="cd_copy">Копировать перевод</string>
+
+    <string name="cd_back">Назад</string>
+    <string name="cd_delete">Удалить запись</string>
+    <string name="history_title">История</string>
+    <string name="clear">Очистить</string>
+    <string name="no_history">История переводов пуста</string>
+    <string name="no_records">Нет записей</string>
+
+    <string name="copied">Скопировано в буфер обмена</string>
+    <string name="no_result">Перевода пока нет</string>
+    <string name="complete_translation_first">Сначала выполните перевод</string>
+    <string name="close">Закрыть</string>
+    <string name="cancel">Отмена</string>
+    <string name="delete">Удалить</string>
+    <string name="save">Сохранить</string>
+
+    <string name="synthesizing">Синтез речи…</string>
+    <string name="listening_speak">Говорите…</string>
+    <string name="recognition_done">Распознано. Нажмите «Перевести»</string>
+    <string name="mic_permission_needed">Для голосового ввода требуется разрешение на микрофон</string>
+    <string name="no_asr_service">На устройстве нет сервиса распознавания речи. Используйте голосовую клавишу клавиатуры, затем нажмите «Перевести»</string>
+    <string name="voice_input_prefix">Голосовой ввод: </string>
+    <string name="keyboard_hint">\nМожно также использовать голосовую клавишу клавиатуры</string>
+    <string name="asr_audio">Проблема с записью, попробуйте снова</string>
+    <string name="asr_permission">Нет разрешения на микрофон</string>
+    <string name="asr_network">Ошибка сети, онлайн-распознавание не удалось</string>
+    <string name="asr_no_match">Не расслышано. Подойдите ближе к микрофону</string>
+    <string name="asr_busy">Сервис распознавания занят, повторите позже</string>
+    <string name="asr_server">Ошибка сервиса распознавания, попробуйте снова</string>
+    <string name="asr_unavailable">Распознавание речи недоступно на этом устройстве</string>
+    <string name="asr_no_voice">Речь не обнаружена, попробуйте снова</string>
+    <string name="asr_cannot_start">Не удалось запустить распознавание речи</string>
+    <string name="asr_no_service">На устройстве нет сервиса распознавания речи</string>
+
+    <string name="set_api_key_first">Сначала задайте API Key</string>
+    <string name="enter_text">Введите текст для перевода</string>
+    <string name="target_no_auto">Целевой язык не может быть «%s»</string>
+    <string name="same_language">Исходный и целевой языки совпадают</string>
+
+    <string name="speak_prefix">Озвучка: </string>
+    <string name="tts_no_content">Нечего озвучивать</string>
+    <string name="tts_lang_unsupported">Для этого языка недоступна онлайн-озвучка</string>
+    <string name="tts_synthesis_failed">Не удалось синтезировать речь. Проверьте сеть и повторите</string>
+    <string name="tts_play_failed">Не удалось воспроизвести аудио</string>
+
+    <string name="settings">Настройки</string>
+    <string name="api_key_settings">Настройка API Key</string>
+    <string name="about_voice">О голосовых функциях</string>
+    <string name="voice_info_title">Голосовые функции</string>
+    <string name="voice_info_msg">🎤 Голосовой ввод: системный сервис распознавания (Xiaomi→Xiaoai, vivo→Blue Heart/iFlytek).\n\n🔊 Озвучка: онлайн-движок Microsoft Edge (бесплатно, естественные голоса, все языки), требуется сеть.</string>
+    <string name="got_it">Понятно</string>
+    <string name="api_key_dialog_title">Настройка DeepSeek API Key</string>
+    <string name="api_key_dialog_msg">Зарегистрируйтесь на platform.deepseek.com и создайте ключ (начинается с sk-) в разделе «API Keys».\nКлюч хранится только на этом устройстве.</string>
+    <string name="api_key_clear">Очистить</string>
+    <string name="api_key_saved">Сохранено</string>
+    <string name="api_key_cleared">API Key очищен</string>
+
+    <string name="clear_all_title">Очистить всю историю</string>
+    <string name="clear_all_msg">Удалить все записи переводов (%d)? Действие необратимо.</string>
+    <string name="cleared_all">История очищена</string>
+    <string name="record_deleted">Запись удалена</string>
+    <string name="detail_source">[Исходный текст]</string>
+    <string name="detail_target">[Перевод]</string>
+    <string name="read_aloud">Озвучить перевод</string>
+    <string name="copy_text">Копировать перевод</string>
+
+    <string name="err_empty_api">API вернул пустой ответ</string>
+    <string name="err_request_failed">Ошибка запроса: %s</string>
+    <string name="err_unknown">Неизвестная ошибка</string>
+    <string name="err_401">API Key недействителен или истёк</string>
+    <string name="err_402">Недостаточно средств, пополните баланс</string>
+    <string name="err_403">Нет доступа</string>
+    <string name="err_404">Эндпоинт не найден</string>
+    <string name="err_429">Слишком много запросов, повторите позже</string>
+    <string name="err_5xx">Ошибка сервера DeepSeek (%d)</string>
+    <string name="err_http">Ошибка запроса (HTTP %d)</string>
+</resources>

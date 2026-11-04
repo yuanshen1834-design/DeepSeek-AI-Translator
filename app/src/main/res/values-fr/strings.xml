@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Traduction DeepSeek</string>
+    <string name="placeholder_result">La traduction s\'affichera ici</string>
+
+    <string name="auto_detect">Détection auto</string>
+    <string name="hanja_mixed">Écriture mixte hanja-hangul (국한문혼용)</string>
+
+    <string name="source_text">Source</string>
+    <string name="result_text">Traduction</string>
+    <string name="input_hint">Saisissez le texte à traduire…</string>
+    <string name="translate">Traduire</string>
+    <string name="translating">Traduction…</string>
+    <string name="cd_history">Historique</string>
+    <string name="cd_settings">Paramètres</string>
+    <string name="cd_swap">Inverser les langues</string>
+    <string name="cd_mic">Saisie vocale</string>
+    <string name="cd_speak">Lire la traduction</string>
+    <string name="cd_copy">Copier la traduction</string>
+
+    <string name="cd_back">Retour</string>
+    <string name="cd_delete">Supprimer</string>
+    <string name="history_title">Historique</string>
+    <string name="clear">Effacer</string>
+    <string name="no_history">Aucun historique de traduction</string>
+    <string name="no_records">Aucun enregistrement</string>
+
+    <string name="copied">Copié dans le presse-papiers</string>
+    <string name="no_result">Pas encore de traduction</string>
+    <string name="complete_translation_first">Effectuez d\'abord une traduction</string>
+    <string name="close">Fermer</string>
+    <string name="cancel">Annuler</string>
+    <string name="delete">Supprimer</string>
+    <string name="save">Enregistrer</string>
+
+    <string name="synthesizing">Synthèse vocale en cours…</string>
+    <string name="listening_speak">Veuillez parler…</string>
+    <string name="recognition_done">Reconnu. Appuyez sur « Traduire »</string>
+    <string name="mic_permission_needed">L\'autorisation du micro est requise pour la saisie vocale</string>
+    <string name="no_asr_service">Aucun service de reconnaissance vocale sur cet appareil. Utilisez la touche vocale du clavier, puis appuyez sur Traduire</string>
+    <string name="voice_input_prefix">Saisie vocale : </string>
+    <string name="keyboard_hint">\nVous pouvez aussi utiliser la touche vocale du clavier</string>
+    <string name="asr_audio">Problème d\'enregistrement, réessayez</string>
+    <string name="asr_permission">Autorisation du micro manquante</string>
+    <string name="asr_network">Erreur réseau, échec de la reconnaissance en ligne</string>
+    <string name="asr_no_match">Pas compris. Rapprochez-vous du micro et réessayez</string>
+    <string name="asr_busy">Service de reconnaissance occupé, réessayez plus tard</string>
+    <string name="asr_server">Erreur du service de reconnaissance, réessayez</string>
+    <string name="asr_unavailable">La reconnaissance vocale n\'est pas disponible sur cet appareil</string>
+    <string name="asr_no_voice">Aucune voix détectée, réessayez</string>
+    <string name="asr_cannot_start">Impossible de démarrer la reconnaissance vocale</string>
+    <string name="asr_no_service">Aucun service de reconnaissance vocale sur cet appareil</string>
+
+    <string name="set_api_key_first">Veuillez d\'abord configurer votre clé API</string>
+    <string name="enter_text">Veuillez saisir le texte à traduire</string>
+    <string name="target_no_auto">La langue cible ne peut pas être « %s »</string>
+    <string name="same_language">Les langues source et cible sont identiques</string>
+
+    <string name="speak_prefix">Lecture : </string>
+    <string name="tts_no_content">Rien à lire</string>
+    <string name="tts_lang_unsupported">La lecture en ligne n\'est pas disponible pour cette langue</string>
+    <string name="tts_synthesis_failed">Échec de la synthèse vocale en ligne. Vérifiez le réseau et réessayez</string>
+    <string name="tts_play_failed">Échec de la lecture audio en ligne</string>
+
+    <string name="settings">Paramètres</string>
+    <string name="api_key_settings">Clé API</string>
+    <string name="about_voice">À propos des fonctions vocales</string>
+    <string name="voice_info_title">Fonctions vocales</string>
+    <string name="voice_info_msg">🎤 Saisie vocale : utilise le service de reconnaissance du système (Xiaomi→Xiaoai, vivo→Blue Heart/iFlytek).\n\n🔊 Lecture : utilise le moteur en ligne Microsoft Edge (gratuit, voix naturelles, toutes les langues), nécessite le réseau.</string>
+    <string name="got_it">Compris</string>
+    <string name="api_key_dialog_title">Configurer la clé DeepSeek API</string>
+    <string name="api_key_dialog_msg">Inscrivez-vous sur platform.deepseek.com, puis créez une clé (commençant par sk-) dans « API Keys ».\nLa clé est stockée uniquement sur cet appareil.</string>
+    <string name="api_key_clear">Effacer</string>
+    <string name="api_key_saved">Enregistré</string>
+    <string name="api_key_cleared">Clé API effacée</string>
+
+    <string name="clear_all_title">Effacer tout l\'historique</string>
+    <string name="clear_all_msg">Supprimer les %d enregistrements de traduction ? Cette action est irréversible.</string>
+    <string name="cleared_all">Historique effacé</string>
+    <string name="record_deleted">Enregistrement supprimé</string>
+    <string name="detail_source">[Source]</string>
+    <string name="detail_target">[Traduction]</string>
+    <string name="read_aloud">Lire la traduction</string>
+    <string name="copy_text">Copier la traduction</string>
+
+    <string name="err_empty_api">L\'API a renvoyé un contenu vide</string>
+    <string name="err_request_failed">Échec de la requête : %s</string>
+    <string name="err_unknown">Erreur inconnue</string>
+    <string name="err_401">Clé API invalide ou expirée</string>
+    <string name="err_402">Solde insuffisant, veuillez recharger</string>
+    <string name="err_403">Accès refusé</string>
+    <string name="err_404">Endpoint introuvable</string>
+    <string name="err_429">Trop de requêtes, réessayez plus tard</string>
+    <string name="err_5xx">Erreur serveur DeepSeek (%d)</string>
+    <string name="err_http">Erreur de requête (HTTP %d)</string>
+</resources>

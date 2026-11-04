@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DeepSeek 번역</string>
+    <string name="placeholder_result">번역 결과가 여기에 표시됩니다</string>
+
+    <string name="auto_detect">자동 감지</string>
+    <string name="hanja_mixed">한자 혼용（국한문혼용）</string>
+
+    <string name="source_text">원문</string>
+    <string name="result_text">번역문</string>
+    <string name="input_hint">번역할 내용을 입력하세요…</string>
+    <string name="translate">번역</string>
+    <string name="translating">번역 중…</string>
+    <string name="cd_history">번역 기록</string>
+    <string name="cd_settings">설정</string>
+    <string name="cd_swap">언어 교환</string>
+    <string name="cd_mic">음성 입력</string>
+    <string name="cd_speak">번역 읽기</string>
+    <string name="cd_copy">번역 복사</string>
+
+    <string name="cd_back">뒤로</string>
+    <string name="cd_delete">기록 삭제</string>
+    <string name="history_title">번역 기록</string>
+    <string name="clear">전체 삭제</string>
+    <string name="no_history">번역 기록이 없습니다</string>
+    <string name="no_records">기록이 없습니다</string>
+
+    <string name="copied">클립보드에 복사되었습니다</string>
+    <string name="no_result">번역 결과가 아직 없습니다</string>
+    <string name="complete_translation_first">먼저 번역을 완료해 주세요</string>
+    <string name="close">닫기</string>
+    <string name="cancel">취소</string>
+    <string name="delete">삭제</string>
+    <string name="save">저장</string>
+
+    <string name="synthesizing">음성 합성 중…</string>
+    <string name="listening_speak">말씀해 주세요…</string>
+    <string name="recognition_done">인식 완료. 「번역」을 누르세요</string>
+    <string name="mic_permission_needed">음성 입력에는 마이크 권한이 필요합니다</string>
+    <string name="no_asr_service">이 기기에는 음성 인식 서비스가 없습니다. 키보드의 음성 입력 키를 사용한 후 번역을 누르세요</string>
+    <string name="voice_input_prefix">음성 입력: </string>
+    <string name="keyboard_hint">\n키보드의 음성 입력 키를 사용할 수도 있습니다</string>
+    <string name="asr_audio">녹음에 문제가 발생했습니다. 다시 시도해 주세요</string>
+    <string name="asr_permission">마이크 권한이 없습니다</string>
+    <string name="asr_network">네트워크 오류로 온라인 인식에 실패했습니다</string>
+    <string name="asr_no_match">잘 들리지 않았습니다. 마이크에 가까이서 다시 말해 주세요</string>
+    <string name="asr_busy">인식 서비스가 사용 중입니다. 잠시 후 다시 시도해 주세요</string>
+    <string name="asr_server">인식 서비스 오류입니다. 다시 시도해 주세요</string>
+    <string name="asr_unavailable">이 기기에서는 음성 인식을 사용할 수 없습니다</string>
+    <string name="asr_no_voice">음성이 감지되지 않았습니다. 다시 시도해 주세요</string>
+    <string name="asr_cannot_start">음성 인식을 시작할 수 없습니다</string>
+    <string name="asr_no_service">이 기기에는 음성 인식 서비스가 없습니다</string>
+
+    <string name="set_api_key_first">먼저 API Key를 설정해 주세요</string>
+    <string name="enter_text">번역할 내용을 입력해 주세요</string>
+    <string name="target_no_auto">대상 언어에는 「%s」를 선택할 수 없습니다</string>
+    <string name="same_language">원문과 대상 언어가 같습니다</string>
+
+    <string name="speak_prefix">읽기: </string>
+    <string name="tts_no_content">읽을 내용이 없습니다</string>
+    <string name="tts_lang_unsupported">이 언어는 온라인 읽기를 지원하지 않습니다</string>
+    <string name="tts_synthesis_failed">온라인 음성 합성에 실패했습니다. 네트워크를 확인하고 다시 시도해 주세요</string>
+    <string name="tts_play_failed">온라인 음성 재생에 실패했습니다</string>
+
+    <string name="settings">설정</string>
+    <string name="api_key_settings">API Key 설정</string>
+    <string name="about_voice">음성 기능 정보</string>
+    <string name="voice_info_title">음성 기능 안내</string>
+    <string name="voice_info_msg">🎤 음성 입력: 시스템 인식 서비스 사용 (Xiaomi→Xiaoai, vivo→Blue Heart/iFlytek).\n\n🔊 읽기: Microsoft Edge 온라인 엔진 사용 (무료, 자연스러운 음성, 모든 언어 지원), 네트워크 필요.</string>
+    <string name="got_it">확인</string>
+    <string name="api_key_dialog_title">DeepSeek API Key 설정</string>
+    <string name="api_key_dialog_msg">platform.deepseek.com 에서 가입 후 「API Keys」 메뉴에서 키(sk- 로 시작)를 만드세요.\n키는 이 기기에만 저장됩니다.</string>
+    <string name="api_key_clear">지우기</string>
+    <string name="api_key_saved">저장되었습니다</string>
+    <string name="api_key_cleared">API Key가 지워졌습니다</string>
+
+    <string name="clear_all_title">전체 기록 삭제</string>
+    <string name="clear_all_msg">번역 기록 %d건을 모두 삭제할까요? 되돌릴 수 없습니다.</string>
+    <string name="cleared_all">전체 기록을 삭제했습니다</string>
+    <string name="record_deleted">해당 기록을 삭제했습니다</string>
+    <string name="detail_source">【원문】</string>
+    <string name="detail_target">【번역】</string>
+    <string name="read_aloud">번역 읽기</string>
+    <string name="copy_text">번역 복사</string>
+
+    <string name="err_empty_api">API가 빈 내용을 반환했습니다</string>
+    <string name="err_request_failed">요청 실패: %s</string>
+    <string name="err_unknown">알 수 없는 오류</string>
+    <string name="err_401">API Key가 유효하지 않거나 만료되었습니다</string>
+    <string name="err_402">잔액이 부족합니다. 충전해 주세요</string>
+    <string name="err_403">접근 권한이 없습니다</string>
+    <string name="err_404">엔드포인트가 존재하지 않습니다</string>
+    <string name="err_429">요청이 너무 많습니다. 잠시 후 다시 시도해 주세요</string>
+    <string name="err_5xx">DeepSeek 서버 오류 (%d)</string>
+    <string name="err_http">요청 오류 (HTTP %d)</string>
+</resources>
